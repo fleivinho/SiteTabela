@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site com tabelas - Flávio</title>
+  <style>
+    * {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background-color: #eeeeee;
+      margin: 0;
+      padding: 40px 0;
+    }
+
+    table,
+    th,
+    td {
+      border: 1px solid;
+      border-color: #3b3b3b9f;
+      font-size: 24px;
+      border-collapse: collapse;
+      padding-right: 100px;
+      padding-left: 100px;
+      margin: 0 auto;
+    }
+
+    #titulo {
+      background-color: #318248;
+      color: white;
+      font-size: 40px;
+      text-align: center;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+
+    #subtitulo {
+      background-color: #1c5934;
+      color: white;
+      font-size: 20px;
+      text-align: center;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    #menu {
+      width: 250px;
+      vertical-align: top;
+      padding: 20px;
+    }
+
+    #conteudo {
+      vertical-align: top;
+      padding: 20px 30px 200px 30px;
+      font-size: 25px;
+      color: #2E2F32;
+    }
+
+    #caixa-menu {
+      background-color: #dfe2e4;
+      width: 100%;
+    }
+
+    #titulo-menu {
+      background-color: #cfd3d6;
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+
+    #itens-menu {
+      padding: 20px;
+      font-size: 22px;
+    }
+
+    #rodape {
+      text-align: center;
+      background-color: #dfe2e4;
+      font-size: 22px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 25px;
+    }
+
+    li {
+      margin-bottom: 20px;
+    }
+
+    a {
+      color: #1a4ed8;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #bdbdbd;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <tr>
+      <th colspan="2" id="titulo">Meu Site</th>
+    </tr>
+    <tr>
+      <td colspan="2" id="subtitulo">Usando Tabelas em HTML</td>
+    </tr>
+    <tr>
+      <td id="menu">
+        <table id="caixa-menu">
+          <tr>
+            <td id="titulo-menu">Menu</td>
+          </tr>
+          <tr>
+            <td id="itens-menu">
+              <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Contato</a></li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </td>
+      <td id="conteudo">
+        <strong style="font-size: 30px;">Bem-vindo!</strong>
+        <hr>
+        Este é um exemplo de site criado utilizando tabelas.
+        <br><br>
+        Antigamente, esse era um método comum pra estruturar páginas.
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" id="rodape">© 2026 - Flávio</td>
+    </tr>
+  </table>
+</body>
+</html>
